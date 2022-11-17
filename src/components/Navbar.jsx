@@ -1,26 +1,31 @@
-import { Link } from "react-router-dom"
-import { NavLink } from "react-router-dom"
+import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = (props) => {
     return (
         <nav className="nav">
-        <a href="/" className="site-title">Alex Oleynik</a>
-        <ul>
-            <li className="link">
-                <a href="/about">About Me</a>
-            </li>
-            <li>
-                <a href="/portfolio">Portfolio</a>
-            </li>
-            <li>
-                <a href="/contact">Contact Me</a>
-            </li>
-            <li>
-                <a href="resume">Resume</a>
-            </li>
-        </ul>
-        </nav>
+            <Link to="/" className="site-title">Alex Oleynik</Link>
+            <ul>
+                <li className="link">
+                    <Link onClick={() => props.setCurrTab("About")} className={props.currTab === 'About' ? 'nav-link active' : 'nav-link'} to="/about">About Me</Link>
+                </li>
+                <li>
+                    <Link to="/portfolio">Portfolio</Link>
+                </li>
+                <li>
+                    <Link to="/contact">Contact Me</Link>
+                </li>
+                <li>
+                    <Link to="resume">Resume</Link>
+                </li>
+            </ul>
+        </nav >
     )
 };
+
+// {viw.map((View) = (
+// <li className="link">
+//      <Link to="{View.tab}" className={`${currTab === View.tab && 'link'}`}" onClick={() => setCurrTab}>About Me</Link>
+// </li>
+// ))}
 
 export default Navbar
