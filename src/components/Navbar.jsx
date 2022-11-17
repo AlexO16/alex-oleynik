@@ -9,13 +9,13 @@ const Navbar = (props) => {
                     <Link onClick={() => props.setCurrTab("About")} className={props.currTab === 'About' ? 'nav-link active' : 'nav-link'} to="/about">About Me</Link>
                 </li>
                 <li>
-                    <Link to="/portfolio">Portfolio</Link>
+                    <Link onClick={() => props.setCurrTab("Portfolio")} className={props.currTab === 'Portfolio' ? 'nav-link active' : 'nav-link'} to="/portfolio">Portfolio</Link>
                 </li>
                 <li>
-                    <Link to="/contact">Contact Me</Link>
+                    <Link onClick={() => props.setCurrTab("Contact")} className={props.currTab === 'Contact' ? 'nav-link active' : 'nav-link'} to="/contact">Contact Me</Link>
                 </li>
                 <li>
-                    <Link to="resume">Resume</Link>
+                    <Link onClick={() => props.setCurrTab("Resume")} className={props.currTab === 'Resume' ? 'nav-link active' : 'nav-link'} to="resume">Resume</Link>
                 </li>
             </ul>
         </nav >

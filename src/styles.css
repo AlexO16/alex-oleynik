@@ -44,9 +44,9 @@ body {
     padding: .15rem;
 }
 
-/* .nav li.link {
+.active {
     background-color: yellow;
-} */
+} 
 
 .nav li:hover {
     background-color: rgb(197, 208, 0);
