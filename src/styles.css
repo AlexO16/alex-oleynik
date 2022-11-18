@@ -52,6 +52,18 @@ body {
     background-color: rgb(197, 208, 0);
 }
 
-.about-title {
+.abtTitle {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cardTitle, .cardText, .cardLink {
     text-align: center;
 }
