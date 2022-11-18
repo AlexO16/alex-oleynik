@@ -52,8 +52,25 @@ body {
     background-color: rgb(197, 208, 0);
 }
 
+.bio {
+    display: flex;
+}
+
 .abtTitle {
     text-align: center;
+    padding-top: 25px;
+    justify-content: center;
+}
+
+.abtBody {
+    padding-right: 50px;
+    font-size: inherit;
+    padding-left: 50px;
+    margin-top: 25px;
+}
+
+.profile-pic {
+    margin-right: 30px;
 }
 
 .container {
@@ -62,8 +79,10 @@ body {
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .cardTitle, .cardText, .cardLink {
     text-align: center;
+    justify-content: center;
 }
