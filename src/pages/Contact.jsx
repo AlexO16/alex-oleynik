@@ -49,7 +49,7 @@ const Contact = () => {
                     <div>Email
                         <br>
                         </br>
-                        <input
+                        <input 
                             value={email}
                             name="email"
                             onChange={handleInputChange}
@@ -88,7 +88,7 @@ const Contact = () => {
                     <div>Message
                         <br>
                         </br>
-                        <input
+                        <textarea
                             value={msg}
                             name="msg"
                             onChange={handleInputChange}
