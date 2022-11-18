@@ -5,6 +5,8 @@
 body {
     margin: 0;
     background-color: tan;
+    width: 100%;
+    height: 100%;
 }
 
 /*  Navbar */
@@ -24,7 +26,6 @@ body {
 }
 
 .site-title:hover{
-    background-color: palegoldenrod;
     flex-wrap: wrap;
 }
 
@@ -128,6 +129,7 @@ textarea {
     height: 125px;
 }
 
+/* Footer */
 .footer {
     background-color: black;
     color: inherit;
@@ -135,5 +137,8 @@ textarea {
     display: flex;
     gap: 3rem;
     padding: 0 1rem;
-    width: auto;
+    width: 100%;
+    height: 55px;
+    align-items: center;
+    position: bottom; 
 }
