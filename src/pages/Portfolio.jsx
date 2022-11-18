@@ -1,6 +1,5 @@
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
-import Container from 'react-bootstrap/Container';
 import weather from '../img/weather.png';
 import readmeGen from '../img/readmeGen.png';
 import dayPlanner from '../img/dayPlanner.png';
@@ -11,17 +10,17 @@ import tracker from '../img/tracker.png';
 const Portfolio = () => {
   return (
     <>
-      <Container>
+      <h1 className="projects">Projects</h1>
         <Row md={4}>
           <Card className="container" border="dark" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={weather} />
             <Card.Body>
-              <Card.Title className="cardTitle">Weather Dashboard</Card.Title>
+              <Card.Title className="cardTitle mt-3 mb-5">Weather Dashboard</Card.Title>
               <Card.Text className="cardText">
                 An app to check the current weather of a searched city and get a 5 day forcast.
               </Card.Text>
             </Card.Body>
-            <Card.Body className="cardLink">
+            <Card.Body className="cardLink mt-5">
               <Card.Link href="https://github.com/AlexO16/weather-dashboard">GitHub</Card.Link>
               <Card.Link href="https://alexo16.github.io/weather-dashboard/">Deployed site</Card.Link>
             </Card.Body>
@@ -30,7 +29,7 @@ const Portfolio = () => {
           <Card className="container" border="dark" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={readmeGen} />
             <Card.Body>
-              <Card.Title className="cardTitle">README Generator</Card.Title>
+              <Card.Title className="cardTitle mt-5 mb-5">README Generator</Card.Title>
               <Card.Text className="cardText">
                 Professional README generator.
               </Card.Text>
@@ -58,7 +57,7 @@ const Portfolio = () => {
           <Card className="container" border="dark" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={noteTaker} />
             <Card.Body>
-              <Card.Title className="cardTitle">Note Taker</Card.Title>
+              <Card.Title className="cardTitle mt-4 mb-5">Note Taker</Card.Title>
               <Card.Text className="cardText">
                 A note taking app. Write, save and delete notes.
               </Card.Text>
@@ -97,7 +96,6 @@ const Portfolio = () => {
             </Card.Body>
           </Card>
         </Row>
-      </Container>
     </>
   )
 };

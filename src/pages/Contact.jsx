@@ -40,51 +40,72 @@ const Contact = () => {
 
     return (
         <>
-            <div className="header">
+            <div className="contactMe">
                 <h1>Contact Me</h1>
-                <p>Text</p>
             </div>
 
             <form className="form">
-                <div>Email
-                <input
-                    value={email}
-                    name="email"
-                    onChange={handleInputChange}
-                    type="email"
-                    placeholder="Email"
-                />
+                <div className="form-group">
+                    <div>Email
+                        <br>
+                        </br>
+                        <input
+                            value={email}
+                            name="email"
+                            onChange={handleInputChange}
+                            type="email"
+                            placeholder="Email"
+                        />
+                    </div>
+                    <br>
+                    </br>
+                    <div>Name
+                        <br>
+                        </br>
+                        <input
+                            value={name}
+                            name="name"
+                            onChange={handleInputChange}
+                            type="text"
+                            placeholder="Name"
+                        />
+                    </div>
+                    <br>
+                    </br>
+                    <div>Subject
+                        <br>
+                        </br>
+                        <input
+                            value={sub}
+                            name="sub"
+                            onChange={handleInputChange}
+                            type="text"
+                            placeholder="Subject"
+                        />
+                    </div>
+                    <br>
+                    </br>
+                    <div>Message
+                        <br>
+                        </br>
+                        <input
+                            value={msg}
+                            name="msg"
+                            onChange={handleInputChange}
+                            type="text"
+                            placeholder="Message"
+                        />
+                    </div>
+                    <br>
+                    </br>
+                    <button type="button" onClick={handleFormSubmit}>Send</button>
                 </div>
-                <div>Name
-                <input
-                    value={name}
-                    name="name"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="Name"
-                />
-                </div>
-                <div>Subject
-                <input
-                    value={sub}
-                    name="sub"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="Subject"
-                />
-                </div>
-                <div>Message
-                <input
-                    value={msg}
-                    name="msg"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="Message"
-                />
-                </div>
-
-                <button type="button" onClick={handleFormSubmit}>Send</button>
+                
             </form>
+
+
+
+
 
             {errMsg && (
                 <div>
