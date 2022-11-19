@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/AlexO16.github.io/alex-oleynik,/static/css/main.2bab0289.css",
-    "main.js": "/AlexO16.github.io/alex-oleynik,/static/js/main.35641861.js",
-    "static/js/787.57b17d3d.chunk.js": "/AlexO16.github.io/alex-oleynik,/static/js/787.57b17d3d.chunk.js",
-    "static/media/readmeGen.png": "/AlexO16.github.io/alex-oleynik,/static/media/readmeGen.5fa166f2679747782a86.png",
-    "static/media/resume.png": "/AlexO16.github.io/alex-oleynik,/static/media/resume.3af79c0d249869280d9d.png",
-    "static/media/weather.png": "/AlexO16.github.io/alex-oleynik,/static/media/weather.1f53949dbe1799da8502.png",
-    "static/media/dayPlanner.png": "/AlexO16.github.io/alex-oleynik,/static/media/dayPlanner.715839f25dfa01918ebc.png",
-    "static/media/employee.png": "/AlexO16.github.io/alex-oleynik,/static/media/employee.a63b30a96ac09d514210.png",
-    "static/media/alex.jpeg": "/AlexO16.github.io/alex-oleynik,/static/media/alex.f2c121ccbd4595bc0802.jpeg",
-    "static/media/noteTaker.png": "/AlexO16.github.io/alex-oleynik,/static/media/noteTaker.af9c17bedce320e353b0.png",
-    "static/media/tracker.png": "/AlexO16.github.io/alex-oleynik,/static/media/tracker.c97bd57ecbe04867d601.png",
-    "index.html": "/AlexO16.github.io/alex-oleynik,/index.html",
-    "main.2bab0289.css.map": "/AlexO16.github.io/alex-oleynik,/static/css/main.2bab0289.css.map",
-    "main.35641861.js.map": "/AlexO16.github.io/alex-oleynik,/static/js/main.35641861.js.map",
-    "787.57b17d3d.chunk.js.map": "/AlexO16.github.io/alex-oleynik,/static/js/787.57b17d3d.chunk.js.map"
+    "main.css": "/AlexO16.github.io/alex-oleynik/static/css/main.2bab0289.css",
+    "main.js": "/AlexO16.github.io/alex-oleynik/static/js/main.cdcb3e7a.js",
+    "static/js/787.57b17d3d.chunk.js": "/AlexO16.github.io/alex-oleynik/static/js/787.57b17d3d.chunk.js",
+    "static/media/readmeGen.png": "/AlexO16.github.io/alex-oleynik/static/media/readmeGen.5fa166f2679747782a86.png",
+    "static/media/resume.png": "/AlexO16.github.io/alex-oleynik/static/media/resume.3af79c0d249869280d9d.png",
+    "static/media/weather.png": "/AlexO16.github.io/alex-oleynik/static/media/weather.1f53949dbe1799da8502.png",
+    "static/media/dayPlanner.png": "/AlexO16.github.io/alex-oleynik/static/media/dayPlanner.715839f25dfa01918ebc.png",
+    "static/media/employee.png": "/AlexO16.github.io/alex-oleynik/static/media/employee.a63b30a96ac09d514210.png",
+    "static/media/alex.jpeg": "/AlexO16.github.io/alex-oleynik/static/media/alex.f2c121ccbd4595bc0802.jpeg",
+    "static/media/noteTaker.png": "/AlexO16.github.io/alex-oleynik/static/media/noteTaker.af9c17bedce320e353b0.png",
+    "static/media/tracker.png": "/AlexO16.github.io/alex-oleynik/static/media/tracker.c97bd57ecbe04867d601.png",
+    "index.html": "/AlexO16.github.io/alex-oleynik/index.html",
+    "main.2bab0289.css.map": "/AlexO16.github.io/alex-oleynik/static/css/main.2bab0289.css.map",
+    "main.cdcb3e7a.js.map": "/AlexO16.github.io/alex-oleynik/static/js/main.cdcb3e7a.js.map",
+    "787.57b17d3d.chunk.js.map": "/AlexO16.github.io/alex-oleynik/static/js/787.57b17d3d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2bab0289.css",
-    "static/js/main.35641861.js"
+    "static/js/main.cdcb3e7a.js"
   ]
 }
