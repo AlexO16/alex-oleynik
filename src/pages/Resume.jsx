@@ -13,9 +13,9 @@ const Resume = () => {
                 </a>
             </div>
             <br></br>
-                <div className="techStack">
-                    <h1>My Tech Stack: </h1>
-                    <IconContext.Provider value={{ color: 'black', size: '50px' }}>
+            <div className="techStack">
+                <h1>My Tech Stack: </h1>
+                <IconContext.Provider value={{ color: 'black', size: '50px' }}>
                     <SiJavascript />
                     <SiCss3 />
                     <SiBootstrap />
@@ -26,8 +26,8 @@ const Resume = () => {
                     <SiExpress />
                     <SiMongodb />
                     <IoLogoNodejs />
-                    </IconContext.Provider>
-                </div>
+                </IconContext.Provider>
+            </div>
         </>
     )
 };
