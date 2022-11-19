@@ -5,24 +5,16 @@
   This is a personal React portfolio showing the power of React. The site contains a homepage, a section about me, my portfolio, contact section and a resume section. 
 
   # Table of Contents:
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contribution](#contribution)
-  * [Testing](#testing)
+  * [Screenshot](#screenshot)
+  * [Links](#links)
   * [License](#license)
-  * [Questions](#questions)
+  * [Credits](#credits)
 
-  # Installation
-  N/A
+  # Screenshot
+  ![Screen Shot 2022-11-18 at 9 10 13 PM](https://user-images.githubusercontent.com/110851664/202831441-6ba222b2-15ad-479a-a97c-2e3d8f7bad5d.png)
 
-  # Usage 
-  N/A
-
-  # Contribution
-  N/A
-
-  # Testing
-  N/A
+  # Links
+  
 
   # License
   [MIT](https://opensource.org/licenses/MIT)
@@ -34,7 +26,6 @@
         
       THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-  # Questions
-  If you have any questions, you may contact me at either [GitHub](https://github.com/AlexO16)
-
-  or Email: a.
+  # Credits
+  
+  * [University of Minnesota](https://courses.bootcampspot.com/courses/2176/assignments/38769?module_item_id=750659)
