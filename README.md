@@ -14,7 +14,7 @@
   ![Screen Shot 2022-11-18 at 9 10 13 PM](https://user-images.githubusercontent.com/110851664/202831441-6ba222b2-15ad-479a-a97c-2e3d8f7bad5d.png)
 
   # Links
-  
+  * [Deployed site](https://alexo16.github.io/alex-oleynik/)
   * [Repository](https://github.com/AlexO16/alex-oleynik)
 
   # License
