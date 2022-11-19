@@ -2,7 +2,7 @@
   # Alex Oleynik React Portfolio
   
   # Description
-  This is a personal React portfolio showing the power of React. The site contains a homepage, a section about me, my portfolio, contact me section and a resume section. 
+  This is a personal React portfolio showing the power of React. The site contains a homepage, a section about me, my portfolio, contact section and a resume section. 
 
   # Table of Contents:
   * [Installation](#installation)
