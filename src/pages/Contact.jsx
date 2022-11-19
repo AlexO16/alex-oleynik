@@ -49,7 +49,7 @@ const Contact = () => {
                     <div>Email
                         <br>
                         </br>
-                        <input 
+                        <input
                             value={email}
                             name="email"
                             onChange={handleInputChange}
@@ -99,19 +99,14 @@ const Contact = () => {
                     <br>
                     </br>
                     <button type="button" onClick={handleFormSubmit}>Send</button>
+                    {errMsg && (
+                        <div>
+                            <p className="error-text">{errMsg}</p>
+                        </div>
+                    )}
                 </div>
-                
             </form>
 
-
-
-
-
-            {errMsg && (
-                <div>
-                    <p className="error-text">{errMsg}</p>
-                </div>
-            )}
         </>
     )
 };
