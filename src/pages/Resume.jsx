@@ -8,7 +8,7 @@ const Resume = () => {
     return (
         <>
             <div className="resumeImg">
-                <a href='https://docs.google.com/document/d/1uVwHFo8lVCBqSpdIfnNuFHS36_Y6hZUGNG764QtNjwc/edit?usp=sharing' target="_blank" rel="noreferrer>">
+                <a href='https://docs.google.com/document/d/1uVwHFo8lVCBqSpdIfnNuFHS36_Y6hZUGNG764QtNjwc/edit?usp=sharing' target="_blank" rel="noreferrer">
                     <img src={resume} alt="demo resume"></img>
                 </a>
             </div>
