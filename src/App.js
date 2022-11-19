@@ -1,3 +1,4 @@
+import ReactDom from "react-dom/client";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
