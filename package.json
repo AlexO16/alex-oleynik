@@ -1,8 +1,8 @@
 {
   "name": "alex-oleynik",
   "version": "0.1.0",
-  "homepage": "AlexO16.github.io/alex-oleynik",
-  "private": true,
+  "homepage": "https://alexo16.github.io/alex-oleynik/",
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
