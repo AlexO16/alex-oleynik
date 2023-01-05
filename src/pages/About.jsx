@@ -6,7 +6,7 @@ const About = () => {
         <Paper elevation={4} style={{ margin: "50px", padding: "15px" }}>
             <h1 className="abtTitle">About Me</h1>
             <div className="bio">
-                <p className="abtBody">Hello my name is Alex and I am currently a student at the University of Minnesota, working to receive my Full Stack Web Developer certificate. I graduated from Le Cordon Bleu in 2014, before transitioning from the food industry I worked as a chef at Augustana Regent. In my free time, I enjoy going on hikes, playing video games and creating delicious meals. I enjoy making roast beef and mashed potatoes, but I enjoy eating it even more. I have a passion for experimenting with code and learning about it. Working with JavaScript is awesome, and allows me to explore the design and functionality of websites</p>
+                <p className="abtBody">Recent graduate of a 12 week, full time web development Boot Camp requiring 50 hours a week for projects and independent study. Intensive cohort focused around technical languages and applications. Knowledgeable of frontend and backend development requirements. Collaborative, detail-oriented, and motivated professional with excellent and adaptable technical skills looking for entry level opportunities in full-stack web development.</p>
                 <div>
                     <img className="profile-pic" src={alex} alt="profile"></img>
                 </div>
